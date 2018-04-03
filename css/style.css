@@ -60,6 +60,13 @@ main .titulohome{
 	margin: 0 auto;
 }
 
+.row::after{
+	display: block;
+	height: 0;
+	clear:  both;
+	content: "";
+}
+
 /*INICIO HEADER*/
 
 header{
@@ -110,4 +117,36 @@ header .carrito{
 	background-image: url("../images/chica.jpg");
 	background-size: cover;
 	background-position: top center;
+}
+
+/*INICIO MAIN PRODUCTOS*/
+
+main .products h2{
+	text-align: center;
+	max-width: 25%;
+	margin:  0 auto 20px auto;
+	margin-top: -20px;
+	background-color: #fff;
+}
+
+main .products hr{
+	border-color: #eee;
+	margin-top: 40px;
+	max-width: 60%;
+}
+
+main .products article{
+	border:  4px solid #ebebeb;
+	width: 31%;
+	float: left;
+	margin: 0 1%;
+}
+
+main .products h4, p{
+	text-align: center;
+}
+
+main .products .precio{
+	font-weight: 700;
+	padding: 20px;
 }
