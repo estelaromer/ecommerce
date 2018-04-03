@@ -220,3 +220,12 @@ footer .footer-sup aside ul li{
 footer .footer-sup aside nav ul li a{
 	margin-bottom: 5%;
 }
+
+footer .footer-inf p{
+	text-align: left;
+	padding: 1% 0;
+}
+
+footer .footer-inf p a{
+	color: #515151;
+}
