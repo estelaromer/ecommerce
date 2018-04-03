@@ -150,3 +150,18 @@ main .products .precio{
 	font-weight: 700;
 	padding: 20px;
 }
+
+main .brands h2{
+	display: none;
+}
+
+main .brands .brand img{
+	border:  4px solid #ebebeb;
+
+}
+
+main .brands .brand{
+	float: left;
+	margin: 5% 2% 5% 2.5%;
+
+}
