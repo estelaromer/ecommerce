@@ -266,4 +266,43 @@ footer .footer-inf p a{
 
 footer .social li{
 	display: inline-block;
+	/*font-size: 25px;*/
+}
+
+footer .social #facebook a{
+	background-image: url("../images/sprite.jpg");
+	background-repeat: none;
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+
+footer .social #twitter a{
+	background-image: url("../images/sprite.jpg");
+	background-repeat: none;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-position: -25px 0;
+}
+
+footer .social #vimeo a{
+	background-image: url("../images/sprite.jpg");
+	background-repeat: none;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-position: -50px 0;
+}
+
+footer .social #facebook a:hover{
+	background-position: 0px -25px;
+}
+
+footer .social #twitter a:hover{
+	background-position: -25px -25px;
+}
+
+footer .social #vimeo a:hover{
+	background-position: -50px -25px;
 }
