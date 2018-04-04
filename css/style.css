@@ -182,19 +182,23 @@ main .products article .descuento{
 
 /*BRANDS*/
 
+main .brands{
+	margin: 40px auto;
+}
 main .brands h2{
 	display: none;
 }
 
-main .brands .brand img{
-	border:  4px solid #ebebeb;
-
-}
 
 main .brands .brand{
 	float: left;
-	margin: 5% 2% 5% 2.5%;
+	border: 4px solid #ebebeb;
+	margin: 0px 4.3% 0px 1%;
 
+}
+
+main .brands .brand:last-child{
+	margin-right: 0;
 }
 
 footer .footer-sup aside ul li strong{
